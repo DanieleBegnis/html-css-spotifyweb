@@ -87,6 +87,8 @@ main {
 .upgrade {
     background-color: #080b12;
     position: fixed;
+    height: 90px;
+    width: 100%;
 }
 
 /* PRIMARY */
