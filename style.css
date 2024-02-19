@@ -40,6 +40,10 @@ main {
     max-width: 200px;
     margin: 20px 0;
 }
+#logo-small {
+    display: none;
+    height: 24px;
+}
 .header-item {
     display: flex;
     line-height: 1.5;
@@ -103,7 +107,14 @@ footer {
     MEDIA QUEARY
 -------------------*/
 @media screen and (max-width: 600px) {
-    .sidebar ul {
+    .sidebar {
+        max-width: 30px;
+    }
+    .sidebar .playlist, .header-item p, .user p, .install p, .sidebar hr, #logo {
         display: none;
     }
+    #logo-small {
+        display: block;
+    }
+     
 }
