@@ -13,3 +13,51 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
+
+/*-------------------
+    MAIN
+-------------------*/
+main {
+    height: calc(100vh - 90px);
+    background-color: #141922;
+}
+.container-big {
+    display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #555555;
+}
+.header-item {
+    display: flex;
+    line-height: 1.5;
+}
+.header-item img {
+    height: 24px;
+}
+/* HOMEPAGE */
+
+/* UPGRADE */
+.upgrade {
+    background-color: #080b12;
+    position: fixed;
+}
+
+/* PRIMARY */
+.primary {
+    overflow-y: auto;
+}
+/*-------------------
+    FOOTER
+-------------------*/
+footer {
+    height: 90px;
+    background-color: #282828;
+    position: fixed;
+    z-index: 900;
+}
