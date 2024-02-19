@@ -32,13 +32,49 @@ main {
     flex-direction: column;
     background-color: #000;
     color: #555555;
+    padding-left: 2px;
+    justify-content: space-between;
+}
+#logo {
+    max-width: 200px;
+    margin: 20px 0;
 }
 .header-item {
     display: flex;
     line-height: 1.5;
+    padding: 6px 0;
 }
 .header-item img {
     height: 24px;
+}
+.playlist h4 {
+    color: #fff;
+    margin-top: 12px;
+}
+.add-playlist {
+    display: flex;
+}
+.fa-square-plus {
+    font-size: 45px;
+}
+.playlist p {
+    line-height: 3;
+    margin-left: 6px;
+}
+.playlist li {
+    padding: 12px 0;
+}
+.install {
+    display: flex;
+}
+.install img {
+    max-width: 16px;
+}
+.user img {
+    max-width: 22px;
+}
+.user {
+    display: flex;
 }
 /* HOMEPAGE */
 
@@ -60,4 +96,11 @@ footer {
     background-color: #282828;
     position: fixed;
     z-index: 900;
+}
+
+/*-------------------
+    MEDIA QUEARY
+-------------------*/
+@media screen and {
+    
 }
