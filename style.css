@@ -34,6 +34,7 @@ main {
     color: #555555;
     padding-left: 2px;
     justify-content: space-between;
+    height: calc(100vh - 90px)
 }
 #logo {
     max-width: 200px;
@@ -101,6 +102,8 @@ footer {
 /*-------------------
     MEDIA QUEARY
 -------------------*/
-@media screen and {
-    
+@media screen and (max-width: 600px) {
+    .sidebar ul {
+        display: none;
+    }
 }
