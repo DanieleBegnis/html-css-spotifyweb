@@ -10,6 +10,19 @@
 /*-------------------
     TYPOGRAPHY
 -------------------*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.column {
+    padding: 0 10px;
+}
+
+/*-------------------
+    TYPOGRAPHY
+-------------------*/
 body {
     font-family: "Montserrat", sans-serif;
 }
@@ -115,10 +128,57 @@ body {
     border: 1px solid #fff;
     color: #fff;
     align-self: center;
+    padding: 8px 20px;
 }
 /* PRIMARY */
 .primary {
     overflow-y: auto;
+    padding: 0 20px;
+}
+.primary-nav {
+    display: flex;
+    justify-content: center;
+}
+.primary-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 12px 0;
+}
+.primary-nav li {
+    padding: 0 20px;
+}
+.primary-nav li a {
+    text-decoration: none;
+    color: #555555;
+}
+/* albums */
+.column-top {
+    width: calc(100% / 6 - 10px);
+}
+.card {
+    position: relative;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.card .image-hover{
+    display: none;
+}
+.card:hover .image-hover{
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    top: 5px;
+    right: 0;
+    padding: 0 6px;
+    background-color: white;
+}
+.card:hover .image-default{
+    display: none;
+}
+.heart {
+
 }
 /*-------------------
     FOOTER
