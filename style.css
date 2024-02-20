@@ -17,12 +17,10 @@ body {
 /*-------------------
     MAIN
 -------------------*/
-main {
-    height: calc(100vh - 90px);
-    background-color: #141922;
-}
 .container-big {
     display: flex;
+    height: calc(100vh - 90px);
+    background-color: #141922;
 }
 
 /* SIDEBAR */
