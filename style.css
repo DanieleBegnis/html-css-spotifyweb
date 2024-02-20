@@ -15,6 +15,16 @@ body {
 }
 
 /*-------------------
+    BUTTON
+-------------------*/
+.btn {
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    font-style: inherit;
+}
+
+/*-------------------
     MAIN
 -------------------*/
 .container-big {
@@ -95,11 +105,15 @@ body {
 /* UPGRADE */
 .upgrade {
     background-color: #080b12;
-    position: fixed;
+    position: sticky;
     height: 90px;
     width: 100%;
+    display: flex;
 }
-
+.btn-upgrade {
+    border: 1px solid #fff;
+    color: #fff;
+}
 /* PRIMARY */
 .primary {
     overflow-y: auto;
@@ -110,7 +124,7 @@ body {
 footer {
     height: 90px;
     background-color: #282828;
-    position: fixed;
+    position: sticky;
     z-index: 900;
 }
 
