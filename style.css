@@ -170,9 +170,9 @@ body {
     display: block;
     position: absolute;
     font-size: 300%;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50% , -50%);
+    transform: translate(-50%, -50%);
     background-color: #0009;
     color: #fff;
 }    
