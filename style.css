@@ -109,10 +109,12 @@ body {
     height: 90px;
     width: 100%;
     display: flex;
+    justify-content: end;
 }
 .btn-upgrade {
     border: 1px solid #fff;
     color: #fff;
+    align-self: center;
 }
 /* PRIMARY */
 .primary {
