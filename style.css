@@ -152,6 +152,10 @@ body {
     color: #555555;
 }
 /* albums */
+.album-section {
+    color: #fff;
+    margin: 20px 0;
+}
 .column-top {
     width: calc(100% / 6 - 10px);
 }
@@ -175,8 +179,18 @@ body {
     transform: translate(-50%, -50%);
     background-color: #0009;
     color: #fff;
+}
+.subtitle {
+    text-align: center;
 }    
-
+.subtitle h3 {
+    color: #fff;
+    margin: 8px 0;
+}
+.subtitle p {
+    color: #555555;
+    font-weight: 600;
+}
 /*-------------------
     FOOTER
 -------------------*/
@@ -190,6 +204,16 @@ footer {
 /*-------------------
     MEDIA QUEARY
 -------------------*/
+@media screen and (max-width: 1100px) {
+    .column-top {
+        width: calc(25% - 10px);
+    }
+}    
+@media screen and (max-width: 700px) {
+    .column-top {
+        width: calc(50% - 10px);
+    }
+}    
 @media screen and (max-width: 600px) {
     .sidebar {
         max-width: 30px;
