@@ -187,9 +187,12 @@ body {
     color: #fff;
     margin: 8px 0;
 }
-.subtitle p {
+.subtitle p, .primary-subtitle {
     color: #555555;
     font-weight: 600;
+}
+.primary-subtitle {
+    margin-bottom: 30px;
 }
 /*-------------------
     FOOTER
