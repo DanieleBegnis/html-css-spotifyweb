@@ -58,11 +58,15 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #000;
+    font-weight: 600;
     color: #555555;
     padding-left: 2px;
     justify-content: space-between;
     flex-shrink: 0;
     height: calc(100vh - 90px);
+}
+.sidebar p:hover, .sidebar li:hover, .sidebar .add-playlist:hover {
+    color: #fff;
 }
 #logo {
     max-width: 200px;
