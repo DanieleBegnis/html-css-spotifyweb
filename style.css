@@ -135,6 +135,10 @@ body {
     color: #fff;
     align-self: center;
     padding: 8px 20px;
+    margin-right: 4px;
+}
+.btn-upgrade:hover {
+    font-size: 17px;
 }
 /* PRIMARY */
 .primary {
