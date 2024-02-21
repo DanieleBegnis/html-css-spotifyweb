@@ -311,6 +311,40 @@ footer .row {
     display: flex;
     align-items: center;
 }
+.footer-settings {
+    display: flex;
+    justify-content: center;
+}
+.settings {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+.settings > .fa-solid {
+    padding: 0 6px;
+}
+.settings .volume-bar {
+    width: 90%;
+    height: 4px;
+    background-color: #5a5a5a;
+    margin: 0 6px;
+    border-radius: 2px;
+}
+/* .fa-circle {
+    display: none;
+} */
+.change-volume {
+    width: 20%;
+    height: 100%;
+    background-color: #c1c1c1;
+    opacity: 1;
+}
+.volume-bar:hover .change-volume {
+    background-color: #adff2f;
+}
+/* .volume-bar:hover .fa-circle {
+    display: flex;
+} */
 /*-------------------
     MEDIA QUEARY
 -------------------*/
