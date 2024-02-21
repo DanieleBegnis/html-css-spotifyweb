@@ -187,6 +187,20 @@ body {
     position: relative;
     width: 100%;
 }
+.card-image {
+    position: relative;
+}
+.card-image-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0009;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .card img{
     width: 100%;
     display: block;
@@ -196,12 +210,7 @@ body {
 }
 .card:hover .image-hover{
     display: block;
-    position: absolute;
     font-size: 300%;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #0009;
     color: #fff;
 }
 .subtitle {
