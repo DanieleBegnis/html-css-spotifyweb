@@ -197,9 +197,12 @@ body {
     right: 0;
     bottom: 0;
     background-color: #0009;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
+}
+.card:hover .card-image-hover {
+    display: flex;
 }
 .card img{
     width: 100%;
