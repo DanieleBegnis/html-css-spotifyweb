@@ -140,6 +140,8 @@ body {
 }
 .user p{
     margin-left: 6px;
+    color: #fff;
+    font-weight: 800;
 }
 /* HOMEPAGE */
 .homepage {
