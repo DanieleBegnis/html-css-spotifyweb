@@ -266,16 +266,35 @@ footer {
 }
 footer .row {
     justify-content: space-between;
+    height: 100%;
 }
 .column-bottom {
-    width: calc(100% / 3 - 10px);
-    background-color: #adff2f;
+    width: calc(20% - 10px);
+    border: 1px solid red;
+}
+.footer-info p {
+    color: #555555;
+}
+.interactables {
+    margin-right: 40px;
+    color: #555555;
+    font-weight: 600;
+}
+.interactables .fa-heart {
+    padding-right: 12px;
+}
+.fa-heart:hover {
+    color: #fff;
+}
+.fa-folder:hover {
+    color: #fff;
 }
 .footer-media-controls {
     flex-grow: 1;
 }
 .footer-info {
     display: flex;
+    justify-content: space-between;
 }
 .artist {
     display: flex;
@@ -283,6 +302,10 @@ footer .row {
 }
 .artist img {
     max-width: 48px;
+    margin-right: 12px;
+}
+.artist-info p:hover {
+    color: #fff;
 }
 .interactables {
     display: flex;
