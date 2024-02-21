@@ -54,7 +54,7 @@ body {
 
 /* SIDEBAR */
 .sidebar {
-    width: 330px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     background-color: #000;
@@ -234,7 +234,11 @@ footer {
     align-items: center;
 }
 .artist img {
-    max-width: 60px;
+    max-width: 48px;
+}
+.interactables {
+    display: flex;
+    align-items: center;
 }
 /*-------------------
     MEDIA QUEARY
