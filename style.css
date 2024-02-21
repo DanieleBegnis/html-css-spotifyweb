@@ -216,6 +216,10 @@ body {
     font-size: 300%;
     color: #fff;
 }
+.card-circle {
+    overflow: hidden;
+    border-radius: 50%;
+}
 .subtitle {
     text-align: center;
 }    
