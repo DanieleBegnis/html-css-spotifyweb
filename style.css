@@ -264,6 +264,16 @@ footer {
     padding: 0 10px;
     color: #fff;
 }
+footer .row {
+    justify-content: space-between;
+}
+.column-bottom {
+    width: calc(100% / 3 - 10px);
+    background-color: #adff2f;
+}
+.footer-media-controls {
+    flex-grow: 1;
+}
 .footer-info {
     display: flex;
 }
