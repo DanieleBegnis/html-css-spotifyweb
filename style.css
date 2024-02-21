@@ -223,8 +223,19 @@ footer {
     background-color: #282828;
     position: sticky;
     z-index: 900;
+    padding: 0 10px;
+    color: #fff;
 }
-
+.footer-info {
+    display: flex;
+}
+.artist {
+    display: flex;
+    align-items: center;
+}
+.artist img {
+    max-width: 60px;
+}
 /*-------------------
     MEDIA QUEARY
 -------------------*/
