@@ -318,6 +318,7 @@ footer .row {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 50%;
 }
 footer .fa-solid {
     padding: 0 8px;
