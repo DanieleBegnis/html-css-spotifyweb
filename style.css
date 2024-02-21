@@ -382,12 +382,14 @@ footer .fa-solid {
     height: 100%;
     background-color: #c1c1c1;
     opacity: 1;
+    position: relative;
 }
 .volume-bar:hover .change-volume {
     background-color: #adff2f;
 }
 /* .volume-bar:hover .fa-circle {
-    display: flex;
+    position: absolute;
+    
 } */
 /*-------------------
     MEDIA QUEARY
