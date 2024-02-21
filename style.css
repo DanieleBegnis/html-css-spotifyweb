@@ -81,6 +81,9 @@ body {
     line-height: 1.5;
     padding: 6px 0;
 }
+.header-item:first-child {
+    border-left: 1px solid #adff2f;
+}
 .header-item img {
     height: 24px;
 }
@@ -176,6 +179,9 @@ body {
     list-style: none;
     margin: 12px 0;
     flex-wrap: wrap;
+}
+.primary-nav li:first-child {
+    border-bottom: 1px solid #adff2f;
 }
 .primary-nav li {
     padding: 12px 20px;
