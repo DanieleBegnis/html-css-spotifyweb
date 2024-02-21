@@ -270,7 +270,6 @@ footer .row {
 }
 .column-bottom {
     width: calc(20% - 10px);
-    border: 1px solid red;
 }
 .footer-info p {
     color: #555555;
@@ -323,9 +322,12 @@ footer .row {
 footer .fa-solid {
     padding: 0 8px;
 }
-footer .fa-circle-play {
+.footer-circle {
     font-size: 26px;
     padding: 0 14px;
+}
+.media-controls:hover .footer-circle {
+    font-size: 30px;
 }
 .progress-bar {
     display: flex;
@@ -333,11 +335,24 @@ footer .fa-circle-play {
     align-items: center;
     width: 100%;
 }
+.progress-bar p {
+    font-size: 10px;
+    margin: 0 12px;
+}
 .song-lenght {
     width: 60%;
     height: 4px;
     background-color: #5a5a5a;
     border-radius: 2px;
+}
+.song-progress {
+    width: 12%;
+    height: 100%;
+    background-color: #c1c1c1;
+    border-radius: 2px;
+}
+.song-lenght:hover .song-progress {
+    background-color: #adff2f;
 }
 .footer-settings {
     display: flex;
