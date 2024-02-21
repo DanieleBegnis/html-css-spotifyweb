@@ -84,6 +84,9 @@ body {
 .header-item img {
     height: 24px;
 }
+.fundamentals {
+    margin-bottom: auto;
+}
 .playlist {
     overflow-y: auto;
     flex-grow: 1;
